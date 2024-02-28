@@ -37,11 +37,11 @@ com
 - Returns a list of all projects.
 
 ### Get Project by ID
-  GET /api/projects/{id}
+      GET /api/projects/{id}
 - Returns the project with the specified ID.
 
 ### Create Project
-  POST /api/projects
+      POST /api/projects
 - Creates a new project.
 - Request Body:
   ```json
@@ -53,19 +53,19 @@ com
   }
 
 ###  Update Project by ID
-PUT /api/projects/{id}
+    PUT /api/projects/{id}
 
 - Updates an existing project with the specified ID.
-- Request Body:
-  {
-  "name": "Updated Project Name",
-  "description": "Updated Project Description",
-  "startDate": "YYYY-MM-DD",
-  "endDate": "YYYY-MM-DD"
-  }
+-     Request Body:
+      {
+      "name": "Updated Project Name",
+      "description": "Updated Project Description",
+      "startDate": "YYYY-MM-DD",
+      "endDate": "YYYY-MM-DD"
+      }
 
  #### Delete Project by ID
 
-  DELETE /api/projects/{id}
+      DELETE /api/projects/{id}
 - Deletes the project with the specified ID.
   
